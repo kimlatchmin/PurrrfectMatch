@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* colors */
+
+  --color-primary: #E35D6A;
+  --color-secondary: #EA868F;
+  --color-light: #F1AEB5;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark: #afafaf;
+  --color-green: #198754;
+  --color-red: #B02A37;
+
+  /* linear gradient */
+  --linear-gradient-1: linear-gradient(#E35D6A, #F1AEB5);
+  --linear-gradient-2: linear-gradient(#E35D6A, #9198e5);
+  --linear-gradient-3: linear-gradient(#E35D6A, #FFFF9F);
+}
+
+html {
+  font-family: "Rubik";
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+}
+
+  /* navbar */
+.navbar {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  color: var(--color-white);
+  font-family: 'Rubik';
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* hero-section */
+#hero-section {
+  background: var(--linear-gradient-1);
+  padding: 3% 15%;
+}
+
+.hero-col {
+  padding: 7% 15%;
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-family: 'Rubik';
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.hero-btn {
+  margin: 0 0.5rem 4.6rem 0;
+}
+
+.hero-col-img {
+  text-align: center;
+}
+
+.hero-img {
+  transform: rotate(25deg);
+  width: 50%;
+}
+
+/* features-section */
+#features-section {
+  background: var(--color-white);
+  text-align: center;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+
+.features-box {
+  padding: 5% 15%;
+}
+
+.icons {
+  color: var(--color-secondary);
+  font-size: 4.6rem;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: var(--color-primary);
+}
+
+.features-title {
+  font-family: 'Rubik';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.features-text {
+  font-family: 'Rubik';
+  font-size: 1.2rem;
+}
+
+/* testimonials-section */
+#testimonial-section {
+  background: var(--color-secondary);
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#testimonial-carousel {
+  margin: 5% 0 0;
+}
+
+.testimonial-text {
+  color: var(--color-white);
+  font-family: 'Rubik';
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  height: 30%;
+  width: 10%;
+}
+
+/* companies-section */
+#companies-section {
+  background: var(--color-secondary);
+  padding: 0% 15% 7% ;
+}
+
+.companies {
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.testimonial-box {
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-logo {
+  width: 200px;
+}
+
+/* pricing-section */
+#pricing-section {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* .pricing-box {
+  padding: 3% 15%;
+} */
+
+.pricing-title {
+  font-family: 'Rubik';
+  font-size: 2.6rem;
+}
+
+.pricing-text {
+  font-family: 'Rubik';
+  font-size: 1.2rem;
+}
+
+.card {
+  border: 1px solid var(--color-dark);
+}
+
+.card-img-top {
+  height: 300px;
+  width: 250px;
+}
+
+
+.card-body {
+  padding: 3% 15%;
+}
+
+.card-icon {
+  color: var(--color-green);
+}
+
+.card-icon-2 {
+  color: var(--color-red);
+}
+
+.card-header {
+  background: var(--color-dark);
+}
+
+.card-title {
+  font-family: 'Rubik';
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card-subtitle {
+  font-family: 'Rubik';
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pricing-btn {
+  margin: 4rem;
+}
+
+/* cta-section */
+#cta-section {
+  background: var(--color-primary);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-title {
+  color: var(--color-white);
+  font-family: 'Rubik';
+  font-size: 4rem;
+}
+
+.btn-download {
+  margin: 2.5rem 1rem 0;
+}
+
+/* footer-section */
+#footer-section {
+  background: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 1% 5%;
+}
+
+.copyright {
+  color: var(--color-dark);
+  margin-bottom: 0;
+}
+
+.creator {
+  font-weight: 400;
+  text-decoration: none;
+}
